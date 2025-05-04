@@ -10,6 +10,10 @@ export default function RootLayout() {
         }}
       />
       <Stack.Screen name="user" />
+      <Stack.Screen
+        name="product/[productId]"
+        options={{ headerTitle: "Product" }}
+      />
     </Stack>
   );
 }
